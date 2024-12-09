@@ -1,0 +1,36 @@
+<variant
+    name="release"
+    package="com.example.shopay_flutter_eccommerce"
+    minSdkVersion="21"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.1.0:/Users/mymac/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/mymac/.gradle/caches/transforms-3/922f7fa658e8c6bd45dbddcedbc8388c/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/intermediates/javac/release/classes:/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/tmp/kotlin-classes/release:/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/kotlinToolingMetadata:/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.shopay_flutter_eccommerce"
+      generatedSourceFolders="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/mymac/Downloads/programmer/shopay_flutter_eccommerce/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/mymac/.gradle/caches/transforms-3/922f7fa658e8c6bd45dbddcedbc8388c/transformed/D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>
